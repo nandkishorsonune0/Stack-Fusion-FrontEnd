@@ -15,7 +15,7 @@ function Form(){
     } = useForm()
 
     function onSubmit(data){
-        axios.post('http://localhost:5000/save-data', data)
+        axios.post('https://stackfusion1.onrender.com/save-data', data)
         .then((response) => {
             if(response.status === 200){
                 navigate('/Collected-Data')
