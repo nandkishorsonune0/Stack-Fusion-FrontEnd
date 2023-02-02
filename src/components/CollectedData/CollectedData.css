@@ -1,0 +1,19 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: serif;
+  }
+  
+  .grid .form-card {
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 10px;
+    font-family: serif;
+  }
+  .title{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
