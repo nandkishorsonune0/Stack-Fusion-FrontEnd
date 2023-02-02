@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react"
-import './/CollectedData'
+import './/CollectedData.css'
 import axios from "axios"
 import { useLocation } from "react-router-dom"
 import FormCard from "../formCard/formCard"
